@@ -20,6 +20,7 @@ public class LoginTest {
 		System.out.println("VERIFY - home page is displayed");
 		String expectedTitle = "Employee Management";
 		String actualTitle = loginPage.getPageTitle();
+		System.out.println("Added in branch A");
 		
 		Assert.assertEquals(actualTitle, expectedTitle, "Expected title was " + expectedTitle + " but actual title was " + actualTitle);
 		
